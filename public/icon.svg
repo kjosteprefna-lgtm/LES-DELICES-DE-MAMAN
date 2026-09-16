@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f43f5e" />
+      <stop offset="50%" stop-color="#e11d48" />
+      <stop offset="100%" stop-color="#be123c" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24" />
+      <stop offset="100%" stop-color="#d97706" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="128" fill="url(#bgGrad)" />
+  <circle cx="256" cy="256" r="210" fill="none" stroke="rgba(255,255,255,0.2)" stroke-width="8" />
+  
+  <!-- Strawberry Emoji / Graphic representation -->
+  <g transform="translate(106, 90)">
+    <!-- Leaves -->
+    <path d="M 150,50 C 130,20 90,10 60,30 C 90,50 120,60 140,70 Z" fill="#22c55e" />
+    <path d="M 150,50 C 170,20 210,10 240,30 C 210,50 180,60 160,70 Z" fill="#16a34a" />
+    <path d="M 150,50 C 150,15 160,5 170,0 C 160,15 155,30 150,50 Z" fill="#15803d" />
+    
+    <!-- Strawberry body -->
+    <path d="M 60,70 C 20,130 30,220 150,300 C 270,220 280,130 240,70 C 200,60 170,75 150,75 C 130,75 100,60 60,70 Z" fill="#fff" opacity="0.95" />
+    <path d="M 70,80 C 35,135 45,215 150,288 C 255,215 265,135 230,80 C 195,72 168,85 150,85 C 132,85 105,72 70,80 Z" fill="#ffe4e6" />
+    
+    <!-- Text / Seeds -->
+    <circle cx="110" cy="130" r="8" fill="#e11d48" />
+    <circle cx="150" cy="120" r="8" fill="#e11d48" />
+    <circle cx="190" cy="130" r="8" fill="#e11d48" />
+    <circle cx="90" cy="180" r="8" fill="#e11d48" />
+    <circle cx="150" cy="175" r="9" fill="#e11d48" />
+    <circle cx="210" cy="180" r="8" fill="#e11d48" />
+    <circle cx="120" cy="225" r="8" fill="#e11d48" />
+    <circle cx="180" cy="225" r="8" fill="#e11d48" />
+    <circle cx="150" cy="260" r="7" fill="#e11d48" />
+  </g>
+  
+  <!-- Crown / Banner text -->
+  <text x="256" y="445" font-family="system-ui, -apple-system, sans-serif" font-size="34" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="2">DÉLICES DE MAMAN</text>
+</svg>

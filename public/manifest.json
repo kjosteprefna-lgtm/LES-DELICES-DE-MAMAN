@@ -1,0 +1,20 @@
+{
+  "id": "/",
+  "name": "Les Délices de Maman",
+  "short_name": "DélicesMaman",
+  "description": "Application de gestion commerciale, stocks, ventes et tableaux de bord BI",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#FAF7F2",
+  "theme_color": "#e11d48",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

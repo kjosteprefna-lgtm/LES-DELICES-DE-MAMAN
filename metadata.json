@@ -1,0 +1,6 @@
+{
+  "name": "Les Délices de Maman",
+  "description": "Application de gestion de magasin, contrôle des stocks, suivi des ventes avec calcul du CA et du bénéfice réel, et tableaux de bord BI interactifs issus du classeur LES DELICES DE MAMAN.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
